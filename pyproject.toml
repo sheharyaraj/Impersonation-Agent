@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "sheharyar-assistant"
+version = "0.1.0"
+dependencies = [
+    "openai",
+    "python-dotenv",
+    "requests",
+    "gradio",
+    "pypdf"
+]

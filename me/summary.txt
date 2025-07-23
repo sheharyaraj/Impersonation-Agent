@@ -1,0 +1,5 @@
+Muhammad Sheharyar Ajmal is a versatile computer science graduate currently working at CodeNinja, where he develops enterprise applications using the .NET stack and explores AI agent architectures and MCP server infrastructure. He brings hands-on experience in full-stack web and mobile development, DevOps, and data analytics.
+
+He previously interned at FastDev Labs, where he led a team of interns and built responsive applications using the MERN stack. His projects span a physiotherapy app in Flutter with pose detection via MediaPipe, an academic paper archive using REST APIs, and CI/CD pipelines with Docker, Kubernetes, GitHub Actions, AWS, and Terraform.
+
+Skilled in Python, Dart, JavaScript, and tools like Firebase, MySQL, and GCP, Sheharyar is passionate about emerging technologies, problem solving, and competing in professional e-sports tournaments.
