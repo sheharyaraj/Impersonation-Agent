@@ -6,7 +6,7 @@ colorTo: indigo
 sdk: gradio
 app_file: main.py
 pinned: false
-short_description: AI chatbot that answers questions as Muhammad Sheharyar Ajmal
+short_description: AI chatbot that answers questions as Sheharyar Ajmal
 ---
 
 # Impersonation Agent
