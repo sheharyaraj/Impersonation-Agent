@@ -140,12 +140,11 @@ if __name__ == "__main__":
         me.chat,
         type="messages",
         css=custom_css,
-        chatbot=gr.Chatbot(type="messages", show_label=False, height=460),
+        fill_height=True,
+        chatbot=gr.Chatbot(type="messages", show_label=False),
         textbox=gr.Textbox(
-            placeholder="Ask me about my experience, projects, or skills...",
+            placeholder="Ask me anything about my work and experience...",
             show_label=False,
-            lines=1,
-            max_lines=4,
         ),
     ).launch()
 
