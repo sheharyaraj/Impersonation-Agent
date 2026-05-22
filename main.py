@@ -130,6 +130,23 @@ If the user is engaging in discussion, try to steer them towards getting in touc
 
 if __name__ == "__main__":
     me = Me()
-    gr.ChatInterface(me.chat, type="messages").launch()
+    custom_css = """
+    footer { display: none !important; }
+    .gradio-container { padding: 8px !important; }
+    textarea { scrollbar-width: none !important; }
+    textarea::-webkit-scrollbar { display: none !important; }
+    """
+    gr.ChatInterface(
+        me.chat,
+        type="messages",
+        css=custom_css,
+        chatbot=gr.Chatbot(type="messages", show_label=False, height=460),
+        textbox=gr.Textbox(
+            placeholder="Ask me about my experience, projects, or skills...",
+            show_label=False,
+            lines=1,
+            max_lines=4,
+        ),
+    ).launch()
 
     
