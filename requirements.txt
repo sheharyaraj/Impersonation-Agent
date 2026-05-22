@@ -1,5 +1,4 @@
 openai>=1.0
 python-dotenv
 requests
-gradio>=5.0
 pypdf

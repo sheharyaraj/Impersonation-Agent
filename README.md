@@ -4,6 +4,7 @@ emoji: 🤖
 colorFrom: blue
 colorTo: indigo
 sdk: gradio
+sdk_version: 5.49.1
 app_file: main.py
 pinned: false
 short_description: AI chatbot that answers questions as Sheharyar Ajmal
